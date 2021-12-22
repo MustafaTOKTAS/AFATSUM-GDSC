@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".GirisYapActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnGirisYap2"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="96dp"
+            android:onClick="btnGirisYapTiklandi"
+            android:text="Giriş Yap"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvUyeOl2"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+        <TextView
+            android:id="@+id/tvUyeOl2"
+            android:layout_width="109dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/cerceve"
+            android:clickable="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="tvUyeOlTiklandi"
+            android:padding="5dp"
+            android:text="Üye Ol"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:theme="@style/Theme.AFATSUM"
+            app:layout_constraintEnd_toStartOf="@+id/btnGirisYap2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="HOŞGELDİNİZ"
+            android:textColor="@color/ag_portal_mavisi"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:startIconDrawable="@drawable/ic_outline_mail_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e-posta"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="#777272" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_outline_lock_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etParola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Parola"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="#777272" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvParolamiUnuttum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:onClick="tvParolamiUnuttumTiklandi"
+            android:text="Parolamı Unuttum"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+        <TextView
+            android:id="@+id/tvDogrulamaEpostasıTekrarGonder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:onClick="tvDogrulamaEpostasiTekrarGonderTiklandi"
+            android:text="Doğrulama Mail'i Gönder"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/tvParolamiUnuttum"
+            app:layout_constraintTop_toBottomOf="@+id/tvParolamiUnuttum" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="133dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:gravity="clip_horizontal|center_vertical"
+            android:onClick="kosullarTiklandi"
+            android:text="Uygulama Hakkında"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGirisYap2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "25901030869",
+    "project_id": "afatsum-bug-droid",
+    "storage_bucket": "afatsum-bug-droid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25901030869:android:3aceaed2a1b1242b15315c",
+        "android_client_info": {
+          "package_name": "com.toktasoft.afatsum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25901030869-mmmh81vace4ne473qr7pafemo9368trn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toktasoft.afatsum",
+            "certificate_hash": "312bc6f609d30097a640fda8eeeb29b8c90854dc"
+          }
+        },
+        {
+          "client_id": "25901030869-pclogcugcn78pudjjnld77dmcetvri9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATVcjVNp6RCXRJX4RcKQLKsgsmRlayXoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25901030869-pclogcugcn78pudjjnld77dmcetvri9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

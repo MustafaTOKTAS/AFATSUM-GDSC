@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5703125" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable/cerceve.xml" value="0.5703125" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5703125" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable/ic_outline_close_24.xml" value="0.5703125" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable/ic_outline_lock_24.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/drawable/ic_outline_mail_24.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_algoritma1.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_anasayfa.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_giris_yap.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_profil.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_sayi_tahmin.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_uye_ol.xml" value="0.5338685398896137" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_uyeler.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/activity_uygulama_hakkinda.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/fragment_dialog_eposta_gonder.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/fragment_hakkinda_bilgilendirme.xml" value="0.67" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/fragment_hakkinda_kosullar.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/fragment_hakkinda_kutuphaneler.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/fragment_parola_unuttum.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/recycler_view_layout.xml" value="0.5" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/layout/yukleme_alert_dialog.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/menu/anasayfa_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/menu/profil_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.346875" />
+        <entry key="..\:/Users/vasil/Desktop/BugDroid_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.5703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

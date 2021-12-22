@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan4"
+    tools:context=".AnasayfaActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAnasayfa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="AFATSUM"
+            app:titleTextColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnSayiTahminOyunu"
+            android:layout_width="266dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="24dp"
+            android:onClick="btnSayiTahminOyunuTiklandi"
+            android:text="Sayı Tahmin Oyunu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnUyeleriGor" />
+
+        <Button
+            android:id="@+id/btnAlgoritma1"
+            android:layout_width="266dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="24dp"
+            android:onClick="btnalgoritmaTiklandi"
+            android:text="Algoritma 1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSayiTahminOyunu" />
+
+        <Button
+            android:id="@+id/btnUyeleriGor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:onClick="btnUyeleriGorTiklandi"
+            android:text="Bütün Üyeleri Gör"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarAnasayfa" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
