@@ -154,9 +154,7 @@ class UyeOlActivity : AppCompatActivity() {
 
                             Snackbar.make(view,"Üyeliğiniz oluşturuldu",Snackbar.LENGTH_INDEFINITE)
                                 .setAction("Tamam") {
-                                    Snackbar.make(view,"e-posta adresinize gelen mail'i onaylayınız !",Snackbar.LENGTH_INDEFINITE).setAction("Tamam"){
-                                        finish()
-                                    }.show()
+                                    finish()
                                 }.show()
                         }
                         .addOnFailureListener {

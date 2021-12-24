@@ -37,7 +37,7 @@ class HakkindaBilgilendirmeFragment : Fragment() {
 
         super.onViewCreated(view, savedInstanceState)
 
-        val a = "Afatsum isimli bu uygulama  Google Developers Student Club'ın düzenlemiş olduğu yarışma için 21 - 23 Aralık 2021 tarihleri arasında Android Studio kullanılarak kotlin dilinde Mustafa TOKTAŞ (Toktasoft) tarafından yazılmış ve geliştirilmiştir.\n" +
+        val a = "Afatsum isimli bu uygulama  Google Developers Student Club'ın düzenlemiş olduğu yarışma için Android Studio kullanılarak kotlin dilinde Mustafa TOKTAŞ (Toktasoft) tarafından yazılmış ve geliştirilmiştir.\n" +
                 "\n" +
                 "Toktasoft'un yazılı izni olmaksızın uygulama kodları üzerinde herhangi bir ekleme-çıkarma yapılması yasaktır.\nTüm hakları saklıdır©"
 

@@ -124,6 +124,7 @@ class SayiTahminActivity : AppCompatActivity() {
                     if (a == tutulanSayi){
 
                         b.tvTahminSonucuBildir.text = "TEBRİKLER !! Doğru Tahmin :D"
+                        b.tvBildirim.text =""
                         kontrol =false
                         b.tvKalanHak.text = "Hak Sayısı"
                         skor = skor +1
